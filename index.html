@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>WebGazer Eye Tracking Demo</title>
+    <!-- Include WebGazer from CDN -->
+    <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>WebGazer Eye Tracking Demo</h1>
+    <p>Press "Start Tracking" to enable eye-tracking with WebGazer.</p>
+
+    <button id="startButton">Start Tracking</button>
+    <button id="stopButton">Stop Tracking</button>
+    <button id="calibrateButton">Calibrate</button>
+
+    <div id="status">Status: Not Tracking</div>
+
+    <video id="webgazerVideoFeed" autoplay muted></video>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
